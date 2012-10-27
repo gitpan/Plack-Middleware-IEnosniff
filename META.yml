@@ -19,13 +19,14 @@ name: Plack-Middleware-IEnosniff
 provides:
   Plack::Middleware::IEnosniff:
     file: lib/Plack/Middleware/IEnosniff.pm
-    version: 0.01
+    version: 0.02
 requires:
   Carp: 0
   Plack::Middleware: 0
   Plack::Util: 0
   Plack::Util::Accessor: 0
+  perl: v5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/Plack-Middleware-IEnosniff
-version: 0.01
+version: 0.02
